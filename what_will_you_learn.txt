@@ -1,0 +1,1 @@
+You will learn how to create a GPS logger. You can also learn about UART and filesystems if you'd like to expand your understanding of how this project works.
