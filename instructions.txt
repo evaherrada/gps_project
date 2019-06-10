@@ -1,0 +1,32 @@
+1. Gather your materials:
+	1. A feather microcontroller board (M0 or M4 work best)
+	2. A GPS FeatherWing
+	3. A Feather doubler
+	4. An active antenna (optional)
+	5. An Adalogger FeatherWing & an SD card (also optional). If you use this, you will need a feather tripler instead of a feather doubler.
+
+2. Assemble materials:
+	1. Put both the feather and the GPS on the feather doubler
+	2. Attach the antenna to the GPS FeatherWing
+
+3. Put code (datalogger.py) on the feather
+
+4. Boot the feather in write mode (only applicable if you aren't using an adalogger.
+	5. Use the code in boot.py to do it, and connect pin 4 to ground when booting to boot in write mode.
+
+5. Collect data
+	1. It should collect the data automatically. Connect to the serial console to verify that data is being collected.
+
+6. Get data.
+	1. If you are using an adalogger:
+		1. Connect to a serial console.
+		2. Make the script stop running with CTRL+C
+		3. Exit the serial console
+		4. Power down the board by ejecting it and disconnecting the power supply.
+		5. Plug the SD card into your computer and copy the file across
+
+	2. If you are using built in storage:
+		1. Connect to a serial console.
+		2. Stop the script with CTRL+C
+		3. Exit the serial console
+		4. Copy the file from the board to your computer using terminal or a graphical file manager.
